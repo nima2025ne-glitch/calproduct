@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link rel="stylesheet" href="j6/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <br><br><br><br>
+    
+    <div class="container">
+        <div class="top">
+            <br>
+            <p id="p" style="margin: 5px;"></p>
+            <br><br>
+            <div style="margin: 10px;">
+            <h1 style="font-size: x-large;" id="head">0</h1>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="row">
+                <button class="col waves-effect waves-light" onclick="del()" style="color: rgb(17, 173, 17);;">c</button>
+                <button class="col waves-effect waves-light" onclick="sli()" style="color: rgb(17, 173, 17);">></button>
+                <button class="col waves-effect waves-light" onclick="fun(1)" style="color: rgb(175, 24, 175);">/</button>
+                <button class="col waves-effect waves-light" onclick="fun(2)" style="color: rgb(175, 24, 175);">X</button>
+            </div>
+            <div class="row">
+                <button class="col waves-effect waves-light" onclick="number('1')">1</button>
+                <button class="col waves-effect waves-light" onclick="number('2')">2</button>
+                <button class="col waves-effect waves-light"  onclick="number('3')">3</button>
+                <button class="col waves-effect waves-light" onclick="fun(3)" style="color: rgb(175, 24, 175);">-</button>
+            </div>
+            <div class="row">
+                <button class="col waves-effect waves-light"  onclick="number('4')">4</button>
+                <button class="col waves-effect waves-light" onclick="number('5')">5</button>
+                <button class="col waves-effect waves-light"  onclick="number('6')">6</button>
+                <button class="col waves-effect waves-light" onclick="fun(4)" style="color: rgb(175, 24, 175);">+</button>
+            </div>
+            <div class="row">
+                <div class="col-9">
+                <div class="row">
+                <button class="col-4 waves-effect waves-light" onclick="number('7')">7</button>
+                <button class="col-4 waves-effect waves-light" onclick="number('8')">8</button>
+                <button class="col-4 waves-effect waves-light" onclick="number('9')">9</button>
+                </div>
+                <div class="row">
+                <button class="col-8 waves-effect waves-light"  onclick="number('0')">0</button>
+                <button class="col-4 waves-effect waves-light">.</button>
+                </div>
+                </div>
+                <button class="col-3 waves-effect waves-light" onclick="cal()" style="height: 120px; color: rgb(17, 173, 17);;">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="j6/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
